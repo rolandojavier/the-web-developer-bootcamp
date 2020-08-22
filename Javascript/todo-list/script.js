@@ -9,7 +9,19 @@ window.setTimeout(function() {
         }
         // View all todos
         else if(resp === 'list'){
-            console.log(list);
+            if(list.length){
+                console.log('***********');
+                list.forEach(function(todo, index){
+                    console.log(index + ': ' + todo);
+                });
+                console.log('***********');
+            }
+        }
+        // Remove specific todo
+        else if(resp === 'delete'){
+            list.splice(Number(prompt('Enter index of todo to delete')), 1);
+            console.log('Todo Removed');
         }
     }
+    console.log('OK, YOU QUIT THE APP');
   }, 500);
