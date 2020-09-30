@@ -1,0 +1,23 @@
+{
+  "name": "express-basics-exercise",
+  "version": "1.0.0",
+  "description": "Express basics exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolandojavier/the-web-developer-bootcamp.git"
+  },
+  "author": "Rolando Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolandojavier/the-web-developer-bootcamp/issues"
+  },
+  "homepage": "https://github.com/rolandojavier/the-web-developer-bootcamp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
