@@ -1,0 +1,22 @@
+{
+  "name": "sunset-time-api",
+  "version": "1.0.0",
+  "description": "Sunset time API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolandojavier/the-web-developer-bootcamp.git"
+  },
+  "author": "Rolando Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolandojavier/the-web-developer-bootcamp/issues"
+  },
+  "homepage": "https://github.com/rolandojavier/the-web-developer-bootcamp#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
