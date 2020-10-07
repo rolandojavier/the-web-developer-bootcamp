@@ -5,8 +5,14 @@ const port = 3000;
 
 let campgrounds = [
   {name: 'Volcan Baru', image: 'https://images.pexels.com/photos/803226/pexels-photo-803226.jpeg?auto=compress&cs=tinysrgb&h=350'},
-  {name: 'Venta de Cruces', image: 'https://images.pexels.com/photos/2108709/pexels-photo-2108709.jpeg?auto=compress&cs=tinysrgb&h=350'},
+  {name: 'Venta de Cruces', image: 'https://pixabay.com/get/57e2dd4a4351ac14f1dc84609620367d1c3ed9e04e507749772f7cd29e4ac5_340.jpg'},
   {name: 'La Yeguada', image: 'https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&h=350'},
+  {name: 'Volcan Baru', image: 'https://images.pexels.com/photos/803226/pexels-photo-803226.jpeg?auto=compress&cs=tinysrgb&h=350'},
+  {name: 'Venta de Cruces', image: 'https://pixabay.com/get/57e2dd4a4351ac14f1dc84609620367d1c3ed9e04e507749772f7cd29e4ac5_340.jpg'},
+  {name: 'La Yeguada', image: 'https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&h=350'},
+  {name: 'Volcan Baru', image: 'https://images.pexels.com/photos/803226/pexels-photo-803226.jpeg?auto=compress&cs=tinysrgb&h=350'},
+  {name: 'Venta de Cruces', image: 'https://pixabay.com/get/57e2dd4a4351ac14f1dc84609620367d1c3ed9e04e507749772f7cd29e4ac5_340.jpg'},
+  {name: 'La Yeguada', image: 'https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&h=350'}
 ];
 
 app.set('view engine', 'ejs');
